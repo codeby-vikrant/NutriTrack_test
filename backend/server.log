@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/vedantparulekar/AndroidStudioProjects/NutriTrack_test/backend/standalone_app.py", line 89, in <module>
+    run_app() 
+  File "/Users/vedantparulekar/AndroidStudioProjects/NutriTrack_test/backend/standalone_app.py", line 79, in run_app
+    password = getpass.getpass("Enter MySQL root password: ")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/getpass.py", line 77, in unix_getpass
+    passwd = _raw_input(prompt, stream, input=input)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/getpass.py", line 148, in _raw_input
+    raise EOFError
+EOFError

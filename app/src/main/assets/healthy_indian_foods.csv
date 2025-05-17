@@ -1,0 +1,21 @@
+id,name,calories,protein,carbs,fats,region,meal_type,is_vegetarian,is_vegan,is_jain,image_url,description,diet_type
+1,Dal Tadka,230,12,35,6,North Indian,Lunch,true,true,true,dal_tadka.jpg,Spiced lentil curry with tempering,Vegetarian
+2,Palak Paneer,280,14,10,22,North Indian,Dinner,true,false,true,palak_paneer.jpg,Spinach curry with cottage cheese,Vegetarian
+3,Masala Dosa,165,4,33,3,South Indian,Breakfast,true,true,true,masala_dosa.jpg,Crispy rice crepe with potato filling,Vegetarian
+4,Idli Sambar,145,6,28,2,South Indian,Breakfast,true,true,true,idli_sambar.jpg,Steamed rice cakes with lentil soup,Vegetarian
+5,Dhokla,160,5,25,5,West Indian,Snack,true,true,true,dhokla.jpg,Steamed fermented rice and chickpea cake,Vegetarian
+6,Mixed Vegetable Curry,180,6,22,9,North Indian,Lunch,true,true,true,mix_veg.jpg,Assorted vegetables in spiced gravy,Vegetarian
+7,Ragi Mudde,85,2,19,0.5,South Indian,Lunch,true,true,true,ragi_mudde.jpg,Finger millet balls,Vegetarian
+8,Quinoa Upma,220,8,35,7,South Indian,Breakfast,true,true,true,quinoa_upma.jpg,Healthy quinoa breakfast with vegetables,Vegetarian
+9,Moong Dal Khichdi,310,12,52,7,North Indian,Dinner,true,true,true,khichdi.jpg,Light and nutritious rice-lentil porridge,Vegetarian
+10,Vegetable Uttapam,200,6,35,4,South Indian,Breakfast,true,true,true,uttapam.jpg,Thick rice pancake with vegetables,Vegetarian
+11,Sprouted Moong Salad,120,9,15,2,Pan Indian,Snack,true,true,true,sprouts_salad.jpg,Healthy sprouted green gram salad,Vegetarian
+12,Baingan Bharta,165,4,15,12,North Indian,Dinner,true,true,true,baingan_bharta.jpg,Roasted eggplant mash,Vegetarian
+13,Oats Chilla,180,8,25,5,North Indian,Breakfast,true,true,true,oats_chilla.jpg,Healthy savory oats pancake,Vegetarian
+14,Kachumber Salad,65,2,12,2,Pan Indian,Snack,true,true,true,kachumber.jpg,Fresh chopped vegetable salad,Vegetarian
+15,Vegetable Poha,155,4,27,5,West Indian,Breakfast,true,true,true,poha.jpg,Flattened rice with vegetables,Vegetarian
+16,Butter Chicken,450,28,12,32,North Indian,Dinner,false,false,false,butter_chicken.jpg,Creamy tomato-based chicken curry,Non-Vegetarian
+17,Fish Curry,280,24,8,18,Coastal Indian,Lunch,false,false,false,fish_curry.jpg,Spiced fish curry with coconut,Non-Vegetarian
+18,Chicken Biryani,550,32,65,22,Hyderabadi,Lunch,false,false,false,chicken_biryani.jpg,Fragrant rice dish with spiced chicken,Non-Vegetarian
+19,Paneer Tikka,320,18,8,24,North Indian,Snack,true,false,false,paneer_tikka.jpg,Grilled spiced cottage cheese,Vegetarian
+20,Samosa,250,4,28,14,North Indian,Snack,true,true,true,samosa.jpg,Fried pastry with spiced potato filling,Vegetarian 

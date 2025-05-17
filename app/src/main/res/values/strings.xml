@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NutriTrack</string>
+    <string name="title_home">Home</string>
+    <string name="title_meals">Meals</string>
+    <string name="title_plan">Meal Plan</string>
+    <string name="title_profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="physical_info">Physical Information</string>
+    <string name="goals_preferences">Goals and Preferences</string>
+    <string name="daily_schedule">Daily Schedule</string>
+    <string name="nutritional_goals">Nutritional Goals</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="activity_level">Activity Level</string>
+    <string name="goal">Goal</string>
+    <string name="dietary_preference">Dietary Preference</string>
+    <string name="allergies">Allergies</string>
+    <string name="wake_time">Wake Time</string>
+    <string name="sleep_time">Sleep Time</string>
+    <string name="bmr">BMR</string>
+    <string name="tdee">TDEE</string>
+    <string name="protein_goal">Protein Goal</string>
+    <string name="carbs_goal">Carbs Goal</string>
+    <string name="fat_goal">Fat Goal</string>
+    <string name="generate_meal_plan">Generate Meal Plan</string>
+    <string name="kcal">kcal</string>
+    <string name="grams">g</string>
+    
+    <!-- Activity Levels -->
+    <string-array name="activity_levels">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Extra Active</item>
+    </string-array>
+    
+    <!-- Goals -->
+    <string-array name="goals">
+        <item>Weight Loss</item>
+        <item>Weight Maintenance</item>
+        <item>Weight Gain</item>
+        <item>Muscle Gain</item>
+    </string-array>
+    
+    <!-- Dietary Preferences -->
+    <string-array name="dietary_preferences">
+        <item>No Restrictions</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+        <item>Jain</item>
+        <item>North Indian</item>
+        <item>South Indian</item>
+        <item>Maharashtrian</item>
+        <item>Gujarati</item>
+        <item>Bengali</item>
+        <item>Punjabi</item>
+        <item>Kerala</item>
+        <item>Andhra</item>
+        <item>Goan</item>
+    </string-array>
+    
+    <!-- Meal Types -->
+    <string-array name="meal_types">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+
+    <!-- Gender -->
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

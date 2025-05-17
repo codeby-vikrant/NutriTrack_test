@@ -1,0 +1,11 @@
+user_id,username,age,gender,height_cm,weight_kg,activity_level,goal,dietary_preference,allergies,medical_conditions,bmr,tdee,protein_goal,carbs_goal,fat_goal,creation_date
+1,rahul_sharma,28,Male,175,78,Moderate,Weight Loss,Non-Vegetarian,None,None,1755,2544,140,223,71,2023-07-15
+2,priya_patel,32,Female,162,65,Light,Maintain Weight,Vegetarian,Dairy,None,1375,1891,82,189,52,2023-08-02
+3,amit_singh,45,Male,178,85,Sedentary,Weight Loss,Non-Vegetarian,None,Hypertension,1677,2012,106,176,56,2023-09-10
+4,neha_gupta,29,Female,160,58,Very Active,Muscle Gain,Vegetarian,Nuts,None,1310,2227,116,223,62,2023-06-28
+5,vikram_joshi,35,Male,182,90,Active,Weight Loss,Non-Vegetarian,Shellfish,Diabetes,1820,2911,145,218,81,2023-10-05
+6,ananya_sharma,24,Female,158,54,Moderate,Maintain Weight,Vegan,Gluten,None,1256,1821,72,205,51,2023-08-12
+7,rajesh_kumar,40,Male,172,75,Sedentary,Weight Loss,Vegetarian,None,Cholesterol,1608,1929,101,169,54,2023-07-30
+8,divya_reddy,27,Female,165,68,Light,Weight Loss,Non-Vegetarian,None,None,1398,1923,101,169,54,2023-09-22
+9,suresh_mehta,50,Male,175,82,Moderate,Maintain Weight,Vegetarian,Dairy,Arthritis,1619,2347,117,235,65,2023-10-15
+10,kavita_jain,33,Female,155,52,Active,Muscle Gain,Jain,None,None,1192,1907,100,191,53,2023-08-05 

@@ -1,0 +1,34 @@
+log_id,user_id,date,meal_type,food_name,quantity,calories,protein_g,carbs_g,fat_g,notes
+1,1,2023-11-01,Breakfast,Paratha (Plain),2,520,9.0,60.0,27.6,Added extra ghee
+2,1,2023-11-01,Breakfast,Masala Chai,1,80,2.5,15.0,1.3,With full fat milk
+3,1,2023-11-01,Lunch,Rice (White),1,130,2.7,28.2,0.3,
+4,1,2023-11-01,Lunch,Dal (Yellow),1,116,7.8,20.0,0.8,
+5,1,2023-11-01,Lunch,Aloo Gobi,1,112,3.0,16.4,4.2,
+6,1,2023-11-01,Dinner,Chapati,2,208,6.8,42.4,0.8,
+7,1,2023-11-01,Dinner,Palak Paneer,1,180,8.9,5.0,15.5,
+8,1,2023-11-01,Snack,Samosa,1,252,4.5,30.0,13.5,
+9,2,2023-11-01,Breakfast,Idli,2,80,4.0,16.2,0.4,With coconut chutney
+10,2,2023-11-01,Breakfast,Chutney (Coconut),2,170,1.6,16.0,12.4,
+11,2,2023-11-01,Lunch,Roti (Whole Wheat),2,240,6.2,35.2,6.8,
+12,2,2023-11-01,Lunch,Rajma (Kidney Beans Curry),1,127,7.5,22.8,1.5,
+13,2,2023-11-01,Dinner,Vegetable Biryani,1,185,4.5,30.2,5.6,
+14,2,2023-11-01,Dinner,Raita,1,75,3.8,5.0,4.1,
+15,2,2023-11-01,Snack,Bhel Puri,1,180,4.0,32.0,4.0,
+16,3,2023-11-01,Breakfast,Oatmeal,1,150,5.0,27.0,2.5,Not in Indian food database
+17,3,2023-11-01,Lunch,Chicken Curry,1,165,19.8,4.2,7.5,
+18,3,2023-11-01,Lunch,Rice (White),1,130,2.7,28.2,0.3,
+19,3,2023-11-01,Dinner,Tandoori Chicken,1,165,25.3,1.5,6.5,
+20,3,2023-11-01,Dinner,Naan,1,262,9.1,38.1,8.6,
+21,4,2023-11-01,Breakfast,Uttapam,1,180,4.5,27.8,5.8,
+22,4,2023-11-01,Breakfast,Sambar,1,65,2.3,10.0,1.8,
+23,4,2023-11-01,Lunch,Roti (Whole Wheat),2,240,6.2,35.2,6.8,
+24,4,2023-11-01,Lunch,Chana Masala,1,145,6.8,23.0,3.7,
+25,4,2023-11-01,Dinner,Dosa (Plain),2,240,6.0,41.0,6.4,
+26,4,2023-11-01,Dinner,Sambar,1,65,2.3,10.0,1.8,
+27,4,2023-11-01,Snack,Dhokla,1,160,5.0,25.0,3.8,
+28,5,2023-11-01,Breakfast,Egg Curry,1,168,11.9,4.5,11.2,
+29,5,2023-11-01,Breakfast,Roti (Whole Wheat),2,240,6.2,35.2,6.8,
+30,5,2023-11-01,Lunch,Mutton Curry,1,190,24.5,2.5,9.8,Low fat version
+31,5,2023-11-01,Lunch,Rice (White),0.5,65,1.35,14.1,0.15,
+32,5,2023-11-01,Dinner,Fish Curry (Bengali Style),1,145,16.8,4.8,6.9,
+33,5,2023-11-01,Dinner,Rice (White),0.5,65,1.35,14.1,0.15, 

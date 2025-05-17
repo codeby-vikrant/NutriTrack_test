@@ -1,0 +1,38 @@
+plan_id,user_id,date,meal_type,food_name,quantity,calories,protein_g,carbs_g,fat_g,notes
+1,1,2023-11-02,Breakfast,Oatmeal,1,150,5.0,27.0,2.5,Add cinnamon and fruits
+2,1,2023-11-02,Breakfast,Masala Chai,1,80,2.5,15.0,1.3,Use low-fat milk
+3,1,2023-11-02,Lunch,Roti (Whole Wheat),2,240,6.2,35.2,6.8,
+4,1,2023-11-02,Lunch,Chicken Curry,1,165,19.8,4.2,7.5,
+5,1,2023-11-02,Lunch,Raita,1,75,3.8,5.0,4.1,
+6,1,2023-11-02,Dinner,Chapati,2,208,6.8,42.4,0.8,
+7,1,2023-11-02,Dinner,Dal Makhani,1,136,7.9,17.0,3.9,Limit butter
+8,1,2023-11-02,Dinner,Bhindi Masala,1,120,3.5,9.5,8.2,
+9,1,2023-11-02,Snack,Fruit salad,1,100,1.0,25.0,0.2,Not in Indian food database
+10,2,2023-11-02,Breakfast,Idli,2,80,4.0,16.2,0.4,
+11,2,2023-11-02,Breakfast,Sambar,1,65,2.3,10.0,1.8,
+12,2,2023-11-02,Lunch,Roti (Whole Wheat),2,240,6.2,35.2,6.8,
+13,2,2023-11-02,Lunch,Palak Paneer,1,180,8.9,5.0,15.5,Use tofu instead of paneer
+14,2,2023-11-02,Dinner,Vegetable Biryani,0.75,138.75,3.38,22.65,4.2,
+15,2,2023-11-02,Dinner,Raita,1,75,3.8,5.0,4.1,Use non-dairy yogurt
+16,2,2023-11-02,Snack,Dhokla,0.5,80,2.5,12.5,1.9,
+17,3,2023-11-02,Breakfast,Egg Curry,0.5,84,5.95,2.25,5.6,
+18,3,2023-11-02,Breakfast,Roti (Whole Wheat),1,120,3.1,17.6,3.4,
+19,3,2023-11-02,Lunch,Fish Curry (Bengali Style),1,145,16.8,4.8,6.9,
+20,3,2023-11-02,Lunch,Rice (White),0.5,65,1.35,14.1,0.15,
+21,3,2023-11-02,Dinner,Tandoori Chicken,0.75,123.75,18.98,1.13,4.88,
+22,3,2023-11-02,Dinner,Chapati,1,104,3.4,21.2,0.4,
+23,3,2023-11-02,Dinner,Bhindi Masala,0.5,60,1.75,4.75,4.1,
+24,4,2023-11-02,Breakfast,Roti (Whole Wheat),1,120,3.1,17.6,3.4,
+25,4,2023-11-02,Breakfast,Paneer (Indian Cottage Cheese),0.5,132.5,9.15,0.6,10.4,
+26,4,2023-11-02,Lunch,Vegetable Biryani,1,185,4.5,30.2,5.6,
+27,4,2023-11-02,Lunch,Raita,1,75,3.8,5.0,4.1,
+28,4,2023-11-02,Dinner,Roti (Whole Wheat),2,240,6.2,35.2,6.8,
+29,4,2023-11-02,Dinner,Matar Paneer,1,190,10.2,11.0,12.5,
+30,4,2023-11-02,Snack,Lassi (Sweet),1,112,3.5,17.0,3.0,Add protein powder
+31,5,2023-11-02,Breakfast,Oatmeal,1,150,5.0,27.0,2.5,Add chia seeds
+32,5,2023-11-02,Breakfast,Egg whites,3,50,10.0,1.0,0.0,Not in Indian food database
+33,5,2023-11-02,Lunch,Chicken Curry,1,165,19.8,4.2,7.5,Low-fat preparation
+34,5,2023-11-02,Lunch,Roti (Whole Wheat),1,120,3.1,17.6,3.4,
+35,5,2023-11-02,Dinner,Fish Curry (Bengali Style),1,145,16.8,4.8,6.9,
+36,5,2023-11-02,Dinner,Vegetable Salad,1,50,2.0,10.0,0.5,Not in Indian food database
+37,5,2023-11-02,Snack,Protein shake,1,120,25.0,3.0,2.0,Not in Indian food database 

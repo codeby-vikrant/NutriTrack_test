@@ -1,0 +1,50 @@
+food_name,calories,protein_g,carbs_g,fat_g,fiber_g,sugar_g,calcium_mg,iron_mg,sodium_mg,portion_size,food_category
+Rice (White),130,2.7,28.2,0.3,0.4,0.1,10,0.8,1,100g,Grains
+Chapati,104,3.4,21.2,0.4,2.7,0.2,10,0.8,3,1 piece (30g),Breads
+Roti (Whole Wheat),120,3.1,17.6,3.4,2.8,0.4,40,1.2,108,1 piece (35g),Breads
+Naan,262,9.1,38.1,8.6,2.2,3.2,104,2.8,531,1 piece (85g),Breads
+Paratha (Plain),260,4.5,30.0,13.8,1.5,0.5,20,1.3,256,1 piece (60g),Breads
+Dal (Yellow),116,7.8,20.0,0.8,7.5,1.9,19,1.5,8,100g,Lentils
+Dal Makhani,136,7.9,17.0,3.9,6.5,1.2,25,2.2,32,100g,Lentils
+Sambar,65,2.3,10.0,1.8,3.2,1.8,18,0.9,345,100g,Lentils
+Rajma (Kidney Beans Curry),127,7.5,22.8,1.5,7.0,0.9,31,2.8,11,100g,Lentils
+Chhole (Chickpea Curry),150,8.2,25.4,2.9,7.6,4.2,56,2.9,418,100g,Lentils
+Paneer (Indian Cottage Cheese),265,18.3,1.2,20.8,0,1.1,530,0.2,350,100g,Dairy
+Chicken Curry,165,19.8,4.2,7.5,1.2,1.8,15,1.3,290,100g,Non-Vegetarian
+Butter Chicken,235,22.5,3.8,14.5,0.8,2.5,50,1.0,442,100g,Non-Vegetarian
+Tandoori Chicken,165,25.3,1.5,6.5,0.5,0.8,25,1.4,280,100g,Non-Vegetarian
+Fish Curry (Bengali Style),145,16.8,4.8,6.9,0.9,1.5,52,1.5,412,100g,Non-Vegetarian
+Mutton Curry,190,24.5,2.5,9.8,0.8,1.2,32,2.5,378,100g,Non-Vegetarian
+Egg Curry,168,11.9,4.5,11.2,0.7,2.1,56,1.9,325,100g,Non-Vegetarian
+Palak Paneer,180,8.9,5.0,15.5,3.1,1.8,290,2.8,375,100g,Vegetarian Curries
+Aloo Gobi,112,3.0,16.4,4.2,4.5,3.2,30,0.8,245,100g,Vegetarian Curries
+Bhindi Masala,120,3.5,9.5,8.2,4.0,2.8,88,1.2,228,100g,Vegetarian Curries
+Baingan Bharta,95,1.8,9.2,5.9,6.0,4.9,18,0.8,425,100g,Vegetarian Curries
+Matar Paneer,190,10.2,11.0,12.5,3.7,3.2,210,1.4,380,100g,Vegetarian Curries
+Malai Kofta,225,5.8,9.6,18.2,2.2,3.5,115,0.9,458,100g,Vegetarian Curries
+Chana Masala,145,6.8,23.0,3.7,6.5,4.2,65,2.6,390,100g,Vegetarian Curries
+Vegetable Biryani,185,4.5,30.2,5.6,2.6,1.9,35,1.2,245,100g,Rice Dishes
+Chicken Biryani,220,12.5,27.8,7.2,1.9,1.6,28,1.5,378,100g,Rice Dishes
+Pulao,175,3.2,29.7,5.1,1.4,0.8,22,0.9,225,100g,Rice Dishes
+Dosa (Plain),120,3.0,20.5,3.2,0.8,0.3,16,0.9,125,1 piece (70g),South Indian
+Idli,40,2.0,8.1,0.2,0.9,0.1,5,0.3,150,1 piece (35g),South Indian
+Uttapam,180,4.5,27.8,5.8,1.4,0.5,36,1.2,285,1 piece (100g),South Indian
+Vada,145,4.8,18.3,6.1,2.5,0.4,38,1.0,358,1 piece (40g),South Indian
+Raita,75,3.8,5.0,4.1,0.7,4.1,120,0.3,158,100g,Sides
+Papadum,28,1.0,4.3,0.8,0.4,0.1,8,0.3,267,1 piece (10g),Sides
+Pickle (Mixed),25,0.4,5.2,0.5,0.9,3.8,15,0.7,1200,1 tbsp (15g),Sides
+Chutney (Mint),40,0.9,9.2,0.2,0.8,7.1,20,0.6,215,1 tbsp (15g),Sides
+Chutney (Coconut),85,0.8,8.0,6.2,2.1,5.5,5,0.4,125,1 tbsp (15g),Sides
+Kheer,158,4.1,26.5,4.6,0.3,20.2,120,0.3,55,100g,Desserts
+Gulab Jamun,320,4.2,50.8,10.5,0.5,42.5,60,0.4,112,2 pieces (70g),Desserts
+Jalebi,350,3.5,65.0,7.8,0.1,48.6,15,0.5,80,100g,Desserts
+Rasgulla,160,4.0,29.8,2.5,0,25.5,85,0.2,65,2 pieces (80g),Desserts
+Barfi,380,8.5,58.0,14.0,0.9,52.0,150,0.8,45,2 pieces (60g),Desserts
+Lassi (Sweet),112,3.5,17.0,3.0,0,14.5,150,0.1,55,200ml,Beverages
+Masala Chai,80,2.5,15.0,1.3,0,12.5,75,0.2,40,150ml,Beverages
+Samosa,252,4.5,30.0,13.5,2.5,0.9,22,1.2,410,1 piece (60g),Snacks
+Pakora,175,5.2,15.6,10.8,2.1,1.0,30,1.1,345,100g,Snacks
+Dhokla,160,5.0,25.0,3.8,2.5,1.2,25,1.5,450,100g,Snacks
+Aloo Tikki,145,2.2,22.0,5.8,2.0,0.7,15,0.8,355,2 pieces (80g),Snacks
+Bhel Puri,180,4.0,32.0,4.0,3.0,6.0,30,1.8,580,100g,Snacks
+Pani Puri,160,2.5,30.0,3.5,1.0,2.5,15,0.7,320,6 pieces (85g),Snacks 

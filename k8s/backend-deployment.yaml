@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nutri-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nutri-backend
+  template:
+    metadata:
+      labels:
+        app: nutri-backend
+    spec:
+      containers:
+      - name: nutri-backend
+        image: nutri-backend:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5001

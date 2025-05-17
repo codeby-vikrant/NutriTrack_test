@@ -1,153 +1,104 @@
 # NutriTrack
 
-NutriTrack is a nutrition tracking and meal planning application that helps users monitor their dietary intake and generate personalized meal plans.
-
-## Features
-
-- User profile management with health metrics calculation (BMR, TDEE)
-- Food database with nutritional information
-- Meal logging and tracking
-- Personalized meal plan generation
-- Progress tracking
-
-## Project Structure
-
-- `app/` - Android application
-- `backend/` - Flask API server
-- `data/` - CSV data files for the database
+A Flask-based nutrition tracking application.
 
 ## Setup Instructions
 
-### Backend Setup
+### Prerequisites
 
-1. Navigate to the backend directory:
-   ```
-   cd backend
-   ```
+- Python 3.8 or higher
+- MySQL Server
+- pip (Python package manager)
 
-2. Create and activate a Python virtual environment:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### Installation
 
-3. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
+1. Clone the repository:
 
-4. Set up the MySQL database:
-   - Make sure MySQL is running
-   - Create a database named 'nutritrack'
-   - Update the `.env` file with your MySQL credentials:
-     ```
-     DATABASE_URL=mysql+pymysql://username:password@localhost/nutritrack
-     DB_PASSWORD=your_mysql_password
-     ```
-
-5. Run the database setup script:
-   ```
-   python database_setup.py
-   ```
-
-6. Start the backend server:
-   ```
-   python app.py
-   ```
-   The server will run on http://localhost:8001
-
-### Android App Setup
-
-1. Open the project in Android Studio
-
-2. Make sure you have set up an Android emulator or connected a physical device
-
-3. Build and run the app:
-   ```
-   ./gradlew installDebug
-   ```
-
-## Using the App
-
-1. First, complete your user profile with your personal details
-2. The app will calculate your BMR (Basal Metabolic Rate) and TDEE (Total Daily Energy Expenditure)
-3. You can view your personalized meal plan in the "Plan" tab
-4. Track your food intake in the "Meals" tab
-5. Monitor your progress in the "Profile" tab
-
-## API Endpoints
-
-- `/health` - Check if the API is running
-- `/users` - Get user information
-- `/foods` - Get food database entries
-- `/meal_logs` - Get meal logs for a user
-- `/meal_plans` - Get meal plans for a user
-- `/login` - User authentication
-
-## Technologies Used
-
-- Android (Java)
-- Flask (Python)
-- MySQL
-- Retrofit for API communication
-- SQLAlchemy for ORM
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- Nutrition data sources
-- Machine learning resources and libraries
-- Material Design guidelines
-
-## Database Setup
-
-The application now uses MySQL for data storage instead of CSV files. Follow these steps to set up the database:
-
-1. Install MySQL on your system if not already installed:
-   - **Ubuntu/Debian**: `sudo apt install mysql-server`
-   - **macOS**: `brew install mysql`
-   - **Windows**: Download and install from [MySQL website](https://dev.mysql.com/downloads/installer/)
-
-2. Start the MySQL service:
-   - **Ubuntu/Debian**: `sudo systemctl start mysql`
-   - **macOS**: `brew services start mysql`
-   - **Windows**: MySQL service should start automatically or via Windows Services
-
-3. Create a MySQL user and database:
-   ```sql
-   CREATE USER 'nutritrack'@'localhost' IDENTIFIED BY 'nutritrack_password';
-   CREATE DATABASE nutritrack;
-   GRANT ALL PRIVILEGES ON nutritrack.* TO 'nutritrack'@'localhost';
-   FLUSH PRIVILEGES;
-   ```
-
-4. Configure the backend:
-   - Navigate to the `backend` directory
-   - Copy the example environment file: `cp .env.example .env`
-   - Edit the `.env` file to set your database connection details:
-     ```
-     DATABASE_URL=mysql+pymysql://nutritrack:nutritrack_password@localhost/nutritrack
-     ```
-
-5. Initialize the database:
-   ```bash
-   cd backend
-   python init_db.py  # Creates the database if it doesn't exist
-   flask init-db      # Creates the tables
-   flask seed-db      # Seeds the database with initial data
-   ```
-
-## Running the Application
-
-### Backend
 ```bash
-cd backend
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+git clone https://github.com/yourusername/NutriTrack.git
+cd NutriTrack
+```
+
+2. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up environment variables:
+
+   - Copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Edit `.env` with your configuration:
+
+     ```
+     # Flask Configuration
+     FLASK_APP=app.py
+     FLASK_ENV=development
+     SECRET_KEY=your_secret_key_here
+
+     # MySQL Configuration
+     MYSQL_HOST=localhost
+     MYSQL_USER=your_mysql_username
+     MYSQL_PASSWORD=your_mysql_password
+     MYSQL_DB=your_database_name
+
+     # Application Settings
+     DEBUG=True
+     ```
+
+5. Set up MySQL:
+
+   - Create a new MySQL database
+   - Update the `.env` file with your MySQL credentials
+   - Make sure MySQL server is running
+
+6. Initialize the database:
+
+```bash
+flask db upgrade
+```
+
+### Running the Application
+
+1. Start the Flask development server:
+
+```bash
 flask run
 ```
 
-### Android App
-Open the project in Android Studio and run it on an emulator or physical device. 
+2. Access the application at `http://localhost:5000`
+
+## Security Notes
+
+- Never commit the `.env` file to version control
+- Keep your database credentials secure
+- Use strong, unique passwords
+- Set `DEBUG=False` in production
+- Generate a strong `SECRET_KEY` for production
+
+## Development
+
+- The application uses Flask-SQLAlchemy for database operations
+- Flask-Migrate for database migrations
+- MySQL as the database backend
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch for your feature
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+[Your chosen license]
